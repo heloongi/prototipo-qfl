@@ -40,7 +40,7 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    void Interagindo()
+    void InteragindoIris()
     {
         Debug.Log("Iniciando diálogo...");
         List<string> dialogo = new List<string>();
@@ -63,10 +63,10 @@ public class DialogueManager : MonoBehaviour
     
     void Update()
     {
-        if (Interagir && Input.GetKeyDown(KeyCode.E))
+        if (Interagir && Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log("Tecla E pressionada!");
-            Interagindo();
+            Debug.Log("Tecla Espaço pressionada!");
+            InteragindoIris();
         }
     }
     
