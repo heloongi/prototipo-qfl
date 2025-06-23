@@ -13,12 +13,13 @@ using UnityEngine;
     {
         //vazio
     }
-    
-    
-    
-    
-    
-    
+
+    public override void Interacao(bool interagir, List<string> dialogo)
+    {
+        
+    }
+
+
     void Start()
     {
         
